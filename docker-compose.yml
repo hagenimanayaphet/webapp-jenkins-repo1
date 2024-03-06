@@ -1,0 +1,8 @@
+version:  '1.0.0.1'
+services:
+  wwww:
+    build:  .
+    ports:
+      - "9001:8080"
+    volumes:
+      - " ./src:/var/www/html/"
